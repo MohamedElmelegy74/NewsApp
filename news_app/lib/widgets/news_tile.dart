@@ -12,13 +12,14 @@ class NewsTile extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         ClipRRect(
-            borderRadius: BorderRadius.circular(12),
-            child: Image.network(
-              'https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg',
-              height: 200,
-              width: double.infinity,
-              fit: BoxFit.cover,
-            )),
+          borderRadius: BorderRadius.circular(12),
+          child: Image.network(
+            'https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg',
+            height: 200,
+            width: double.infinity,
+            fit: BoxFit.cover,
+          ),
+        ),
         const SizedBox(
           height: 12,
         ),
@@ -39,7 +40,7 @@ class NewsTile extends StatelessWidget {
           'sadfgsadfkljsidfasldkvndficjsadlfgkasjdiofashdfasldkfjasdiughsladkfasdjfiohbv',
           maxLines: 2,
           style: TextStyle(color: Colors.grey, fontSize: 14),
-        )
+        ),
       ],
     );
   }

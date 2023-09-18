@@ -10,45 +10,48 @@ class CategoryListView extends StatelessWidget {
   final List<Model> catogoris = const [
     Model(
       image: 'assets/business.avif',
-      text: 'business',
+      categoryName: 'business',
     ),
     Model(
       image: 'assets/entertaiment.avif',
-      text: 'Entertainment',
+      categoryName: 'Entertainment',
     ),
     Model(
       image: 'assets/general.avif',
-      text: 'General',
+      categoryName: 'General',
     ),
     Model(
       image: 'assets/health.avif',
-      text: 'Health',
+      categoryName: 'Health',
     ),
     Model(
       image: 'assets/science.avif',
-      text: 'Science',
+      categoryName: 'Science',
     ),
     Model(
       image: 'assets/sports.avif',
-      text: 'Sports',
+      categoryName: 'Sports',
     ),
     Model(
       image: 'assets/technology.jpeg',
-      text: 'Technology',
+      categoryName: 'Technology',
     )
 
     // Add more Model objects as needed
   ];
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      scrollDirection: Axis.horizontal,
-      itemCount: catogoris.length,
-      itemBuilder: (context, index) {
-        return Category(
-          category: catogoris[index],
-        );
-      },
+    return SizedBox(
+      height: 85,
+      child: ListView.builder(
+        scrollDirection: Axis.horizontal,
+        itemCount: catogoris.length,
+        itemBuilder: (context, index) {
+          return Category(
+            category: catogoris[index],
+          );
+        },
+      ),
     );
   }
 }

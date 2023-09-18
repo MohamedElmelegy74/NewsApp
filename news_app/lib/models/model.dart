@@ -1,8 +1,8 @@
 class Model {
   final String image;
-  final String text;
+  final String categoryName;
   const Model({
     required this.image,
-    required this.text,
+    required this.categoryName,
   });
 }
