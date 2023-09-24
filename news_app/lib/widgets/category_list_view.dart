@@ -9,17 +9,18 @@ class CategoryListView extends StatelessWidget {
 
   final List<Model> catogoris = const [
     Model(
-      image: 'assets/business.avif',
-      categoryName: 'business',
-    ),
-    Model(
-      image: 'assets/entertaiment.avif',
-      categoryName: 'Entertainment',
-    ),
-    Model(
-      image: 'assets/general.avif',
+      image: 'assets/general.jpg',
       categoryName: 'General',
     ),
+    Model(
+      image: 'assets/job-5382501_1280.jpg',
+      categoryName: 'Business',
+    ),
+    Model(
+      image: 'assets/entertaiment.jpg',
+      categoryName: 'Entertainment',
+    ),
+
     Model(
       image: 'assets/health.avif',
       categoryName: 'Health',
@@ -29,7 +30,7 @@ class CategoryListView extends StatelessWidget {
       categoryName: 'Science',
     ),
     Model(
-      image: 'assets/sports.avif',
+      image: 'assets/sports.jpg',
       categoryName: 'Sports',
     ),
     Model(
