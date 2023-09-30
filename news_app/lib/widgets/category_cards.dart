@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app_ui_setup/models/model.dart';
+import 'package:news_app_ui_setup/models/category_model.dart';
 
 class Category extends StatelessWidget {
   const Category({super.key, required this.category});
@@ -28,7 +28,7 @@ class Category extends StatelessWidget {
                 style: const TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
-                  fontSize: 12,
+                  fontSize: 20,
                 ),
               ),
             ),

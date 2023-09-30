@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ef2b860-3615-458b-8a2f-5a3b780702eb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/news_app/lib/models/model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_app/lib/services/news_services.dart" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/lib/services/news_services.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_app/lib/widgets/category_cards.dart" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/lib/widgets/category_cards.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_app/lib/widgets/category_list_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/lib/widgets/category_list_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_app/lib/widgets/news_tile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/lib/widgets/news_tile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_app/lib/widgets/news_tile_list_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/lib/widgets/news_tile_list_view.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="ProjectId" id="2VNbhzcvyaUhAbMGr7Gh8K7T48i" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -7,8 +21,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
     "settings.editor.selected.configurable": "AndroidSdkUpdater"
   }
 }]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ef2b860-3615-458b-8a2f-5a3b780702eb" name="Changes" comment="" />
+      <created>1696001884420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696001884420</updated>
+      <workItem from="1696001884983" duration="4000" />
+    </task>
+    <servers />
+  </component>
 </project>
