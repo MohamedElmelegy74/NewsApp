@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:news_app_ui_setup/widgets/category_list_view.dart';
-import 'package:news_app_ui_setup/widgets/news_tile_list_view.dart';
+import 'package:news_app_ui_setup/widgets/news_list_view_bulider.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({Key? key}) : super(key: key);
@@ -39,7 +39,11 @@ class HomeView extends StatelessWidget {
                 height: 32,
               ),
             ),
-            NewsTileListView(),
+            NewsListViewBuilder(),
+            SliverFillRemaining(
+              hasScrollBody: false,
+              child: Center(child: CircularProgressIndicator()),
+            )
           ],
         ),
       ),
