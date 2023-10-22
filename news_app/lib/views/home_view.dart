@@ -39,11 +39,21 @@ class HomeView extends StatelessWidget {
                 height: 32,
               ),
             ),
-            NewsListViewBuilder(),
-            SliverFillRemaining(
-              hasScrollBody: false,
-              child: Center(child: CircularProgressIndicator()),
-            )
+            NewsListViewBuilder(
+              category: 'top',
+            ),
+            // SliverFillRemaining(
+            //   hasScrollBody: false,
+            //   child: Center(child: LodingData()),
+            // ),
+            // SliverFillRemaining(
+            //   hasScrollBody: false,
+            //   child: Center(
+            //     child: ErrorMassage(
+            //       massage: '',
+            //     ),
+            //   ),
+            // ),
           ],
         ),
       ),

@@ -10,7 +10,7 @@ class CategoryListView extends StatelessWidget {
   final List<Model> catogoris = const [
     Model(
       image: 'assets/general.jpg',
-      categoryName: 'General',
+      categoryName: 'Top',
     ),
     Model(
       image: 'assets/job-5382501_1280.jpg',
@@ -36,7 +36,15 @@ class CategoryListView extends StatelessWidget {
     Model(
       image: 'assets/technology.jpeg',
       categoryName: 'Technology',
-    )
+    ),
+    Model(
+      image: 'assets/news-426893_1280.jpg',
+      categoryName: 'World',
+    ),
+    Model(
+      image: 'assets/food.jpg',
+      categoryName: 'Food',
+    ),
 
     // Add more Model objects as needed
   ];

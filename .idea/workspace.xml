@@ -2,32 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ef2b860-3615-458b-8a2f-5a3b780702eb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/news_app/lib/models/model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NewsApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NewsApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_app/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_app/lib/models/result_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/lib/models/result_model.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news_app/lib/services/news_services.dart" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/lib/services/news_services.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_app/lib/views/home_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/lib/views/home_view.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news_app/lib/widgets/category_cards.dart" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/lib/widgets/category_cards.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news_app/lib/widgets/category_list_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/lib/widgets/category_list_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_app/lib/widgets/news_list_view_bulider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/lib/widgets/news_list_view_bulider.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news_app/lib/widgets/news_tile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/lib/widgets/news_tile.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news_app/lib/widgets/news_tile_list_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/lib/widgets/news_tile_list_view.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_app/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/news_app/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2VNbhzcvyaUhAbMGr7Gh8K7T48i" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,7 +51,15 @@
       <option name="presentableId" value="Default" />
       <updated>1696001884420</updated>
       <workItem from="1696001884983" duration="4000" />
+      <workItem from="1696175933379" duration="1000" />
+      <workItem from="1696507523105" duration="88000" />
+      <workItem from="1696628619031" duration="4000" />
+      <workItem from="1697679775118" duration="13000" />
+      <workItem from="1697679883293" duration="98000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
