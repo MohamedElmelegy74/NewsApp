@@ -2,7 +2,7 @@ class ResultModel {
   final String? image;
   final String title;
   final String? description;
-  final String link;
+  final String? link;
 
   ResultModel({
     required this.link,

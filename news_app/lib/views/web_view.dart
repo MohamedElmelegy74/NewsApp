@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app_ui_setup/models/result_model.dart';
+import 'package:news_app_ui_setup/widgets/news_list_view_bulider.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class WebView extends StatelessWidget {

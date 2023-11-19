@@ -21,7 +21,7 @@ class NewsTile extends StatelessWidget {
             MaterialPageRoute(
               builder: (context) {
                 return WebView(
-                  link: resultModel.link,
+                  link: resultModel.link ?? '',
                 );
               },
             ),
